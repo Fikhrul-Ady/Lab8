@@ -58,10 +58,12 @@ def Tambah(self):
 ```
 - Jangan lupa untuk Menampilkan Mahasiswa
 
-```class Mahasiswa(Data):
+```
+class Mahasiswa(Data):
 ```
 - Tulis code Tampilkan, untuk menampilkan data
-```def Tampilkan(self):
+```
+def Tampilkan(self):
         if data.items():
             print("======================================================================================")
             print("|   NO  |    NIM         |     NAME      |  DUTY  |   UTS   |   UAS   |     ENDED    |")
@@ -100,7 +102,6 @@ def Hapus(self):
 ```
 - Kemudian yang terakhir ketika kita ingin memanggil class kita hanya cukup menggunakan atau menambahkan 1 variabel sebagai dorongan class beserta fungsi
 ```
-
 datamhs = Mahasiswa("data1","data2","data3","data4","data5","data6")
 ```
 ### Gambar
