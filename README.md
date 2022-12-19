@@ -100,6 +100,7 @@ def Hapus(self):
 ```
 - Kemudian yang terakhir ketika kita ingin memanggil class kita hanya cukup menggunakan atau menambahkan 1 variabel sebagai dorongan class beserta fungsi
 ```
+
 datamhs = Mahasiswa("data1","data2","data3","data4","data5","data6")
 ```
 ### Gambar
