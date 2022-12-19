@@ -3,13 +3,16 @@
 ## Penjelasan
 
 - Kita tulis Code
-```data = {}
+```
+data = {}
 ```
 - Kemudian kita tambahkan Class
-```class Data():
+```
+class Data():
 ```
 - Masukkan Syntax Code Buat Pilihan
-```def __init__(self,data1,data2,data3,data4,data5,data6):
+```
+def __init__(self,data1,data2,data3,data4,data5,data6):
         while True:
 
             print("\n")
@@ -42,7 +45,8 @@
                 exit()
 ```
 - Kemudian Tulislah code, untuk menambahkan data
-```def Tambah(self):
+```
+def Tambah(self):
         print("Tambah Data")
         self.nama   = input('Nama : ')
         self.nim    = input('NIM : ')
@@ -69,7 +73,8 @@
                 print("=======================================================================================================================")
 ```
 - Tulis code Ubah, untuk mengubah
-```def Ubah(self):
+```
+def Ubah(self):
         print("Ubah Data")
         self.nama = input("Masukkan Nama Anda : ")
         if self.nama in data.keys():
@@ -83,7 +88,8 @@
             print("Nama Anda Tidak Ditemukan!")
 ```
 - Tulis code Hapus, untuk menghapus data
-``` def Hapus(self):
+``` 
+def Hapus(self):
         print("Hapus Data?")
         self.nama = input("Masukkan Nama Anda : ")
 
@@ -93,7 +99,8 @@
             print("Nama Anda Tidak Ditemukan!")
 ```
 - Kemudian yang terakhir ketika kita ingin memanggil class kita hanya cukup menggunakan atau menambahkan 1 variabel sebagai dorongan class beserta fungsi
-```datamhs = Mahasiswa("data1","data2","data3","data4","data5","data6")
+```
+datamhs = Mahasiswa("data1","data2","data3","data4","data5","data6")
 ```
 ### Gambar
 ![image1](SS/SS1.jpg)
