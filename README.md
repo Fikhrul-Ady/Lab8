@@ -53,6 +53,7 @@
         data[self.nama] = self.nim, self.tugas, self.uts, self.uas, self.akhir
 ```
 - Jangan lupa untuk Menampilkan Mahasiswa
+
 ```class Mahasiswa(Data):
 ```
 - Tulis code Tampilkan, untuk menampilkan data
